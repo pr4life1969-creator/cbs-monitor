@@ -1,0 +1,29 @@
+
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Instructions</title>
+<style>body{font-family:Arial;padding:12px;background:#fff;color:#111}h1{color:#0b0f14}</style></head><body>
+<h1>CBS Monitor — Simple step-by-step guide (Plain English)</h1>
+<p>This guide helps you run the CBS Monitor app on your Samsung phone without programming.</p>
+<h2>What you have in this ZIP</h2>
+<ul>
+<li><b>single-file.html</b> — easiest: open in Chrome on your phone and run the app.</li>
+<li><b>bundle/</b> — full web app folder (for hosting or Android project).</li>
+<li><b>android_project/</b> — optional Android Studio project (if you want an APK).</li>
+<li><b>offline_bundle/README.txt</b> — how to make the app fully offline by downloading model files once.</li>
+</ul>
+<h2>Step-by-step: Run now (no programming)</h2>
+<ol>
+<li>Download and extract the ZIP on your phone (or transfer via USB).</li>
+<li>Open the Files app and tap <b>single-file.html</b> and choose <b>Chrome</b> to open.</li>
+<li>When Chrome asks, allow Camera and Microphone.</li>
+<li>Inside the app, tap <b>Prefetch Models</b> (one-time). This needs internet only once.</li>
+<li>Go to Enroll → enter a name (e.g., P01) → tap <b>Enroll Face</b> and look at the camera for 5 quick samples.</li>
+<li>Start Mic → record a 30–60s neutral baseline (label it “baseline”).</li>
+<li>Enroll Speaker MFCC: speak a bit with the mic on, then tap <b>Enroll Speaker</b> to collect voice features for that person.</li>
+<li>Dashboard → Start Mic → Start Trial → ask your question → End Trial. Use Data tab to export recordings or view confusion matrix.</li>
+<li>To install on Home screen: Chrome menu → Add to Home screen. Now it behaves like an app.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<ul><li>If camera or mic don't work, check Chrome has permissions in Android Settings > Apps > Chrome > Permissions.</li>
+<li>If face-recognition fails first time, Prefetch Models failed — ensure you're online and try Prefetch again.</li></ul>
+<p>If you want, I can also produce a ready-to-install APK. Tell me and I will prepare it.</p>
+</body></html>

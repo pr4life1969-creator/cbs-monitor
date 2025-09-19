@@ -1,0 +1,1 @@
+Open android_project in Android Studio to build an APK. Or ask me to build an unsigned APK for you.

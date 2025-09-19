@@ -1,0 +1,1 @@
+To make fully offline: download face-api weight files into bundle/weights/ as described in the chat.
